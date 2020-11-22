@@ -1,0 +1,12 @@
+import turtle
+
+vanya = turtle.Turtle()
+vanya.speed(10)
+
+vanya.reset()
+for i in range(9):
+    vanya.forward(200)
+    vanya.left(225)
+
+turtle.done()
+turtle.Screen().mainloop()
