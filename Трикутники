@@ -1,0 +1,29 @@
+import turtle
+
+vanya = turtle.Turtle()
+vanya.speed(10)
+
+vanya.reset()
+
+vanya.left(65)
+vanya.forward(200)
+
+vanya.right(130)
+vanya.forward(200)
+
+vanya.color('blue')
+vanya.begin_fill()
+
+vanya.right(155)
+vanya.forward(110)
+
+vanya.left(80)
+vanya.forward(110)
+
+vanya.left(140)
+vanya.forward(170)
+
+vanya.end_fill()
+
+turtle.done()
+turtle.Screen().mainloop()
